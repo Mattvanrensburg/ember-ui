@@ -24,6 +24,15 @@
         </p>
 
         {{!-- Place the component to archive/unarchive users here --}}
+        <p class="subtitle has-text-white my-2">
+          Active:
+          {{@model.active}}
+          <br>
+          {{input
+            type="checkbox"
+            on="change" action="archiveUser" value= isChecked
+          }}
+        </p>
 
       </div>
     </div>

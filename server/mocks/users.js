@@ -46,6 +46,7 @@ const usersJson = {
     "attributes": {
       "name": "Albert Einstein",
       "image": "/images/Einstein.jpg",
+      "active": "true",
       "value": "false"
     }
   },
@@ -55,6 +56,7 @@ const usersJson = {
     "attributes": {
       "name": "Walt Disney",
       "image": "/images/Walt.jpg",
+      "active": "true",
       "value": "false"
     }
   },
@@ -64,6 +66,7 @@ const usersJson = {
     "attributes": {
       "name": "Bruce Lee",
       "image": "/images/Bruce.jpg",
+      "active": "true",
       "value": "false"
     }
   },
@@ -73,6 +76,7 @@ const usersJson = {
     "attributes": {
       "name": "Neil Armstrong",
       "image": "/images/Neil.jpg",
+      "active": "false",
       "value": "false"
     }
   }

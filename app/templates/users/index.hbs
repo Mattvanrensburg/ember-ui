@@ -2,7 +2,8 @@
 <div class="container">
   <div class="columns is-centered">
 
-    {{#each @model as |user|}}
+    {{#each userSorted as |user|}}
+
       <div class="column">
 
         <LinkTo @route="users.user" @model={{user}}>
